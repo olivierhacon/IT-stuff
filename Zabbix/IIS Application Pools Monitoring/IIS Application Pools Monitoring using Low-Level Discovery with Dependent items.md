@@ -7,7 +7,7 @@
 Install-WindowsFeature -Name Web-Scripting-Tools
 ```
 ### 1.2 Script Preparation:
-A. IIS Application Pools Discovery Script (iis_apppools_discovery.ps1):
+A. IIS Application Pools Discovery Script ([iis_apppools_discovery.ps1](iis_apppools_discovery.ps1)):
 
 ```powershell
 # Retrieves the names of all application pools using the Get-CimInstance cmdlet from the 'applicationpool' class within the 'root\webadministration' namespace
@@ -35,7 +35,7 @@ This script will just discover the application pools on the IIS server. The outp
     {"{#APPNAME}": "app3"}
 ]
 ```
-B. Main Metrics Script (iis_apppools_wmi_metrics.ps1):
+B. Main Metrics Script ([iis_apppools_wmi_metrics.ps1](iis_apppools_wmi_metrics.ps1)):
 
 ```powershell
 # Retrieve all application pool names using the Get-CimInstance cmdlet for the 'applicationpool' class

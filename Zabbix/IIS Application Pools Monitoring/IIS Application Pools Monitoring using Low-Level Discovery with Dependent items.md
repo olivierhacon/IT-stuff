@@ -114,7 +114,7 @@ $results | ConvertTo-Json
 
 This script retrieves values for each application pool? The output looks like:
 
-```json
+```bash
 [
     {
         "application": "app1",
@@ -221,7 +221,7 @@ Units: If the value is in bytes, you can set the item's Units property to B. Zab
 - Choose "JSONPath" from the dropdown
 - Enter the JSONPath expression to extract the metric from the raw JSON: 
 
-```json
+```plaintext
 $[?(@.application=="{#APPNAME}")].data.IOReadOperationsPerSec
 ```
 This preprocessing step will extract the IOReadOperationsPerSec metric from the raw JSON data collected by Zabbix for a specific application pool identified by the {#APPNAME} macro.

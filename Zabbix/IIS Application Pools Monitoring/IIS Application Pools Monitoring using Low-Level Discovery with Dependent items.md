@@ -154,7 +154,7 @@ Get-WmiObject -List -Namespace root\cimv2 | select -Property name | where name -
 ...
 ```
 ### 1.3 Zabbix Agent Configuration:
-Modify the zabbix_agentd.conf:
+Modify the zabbix_agentd.conf adding these lines:
 
 ```plaintext
 UserParameter=iis.apppools.discovery[*],powershell -NoProfile -ExecutionPolicy Bypass -File C:\zabbix\script\iis_apppools_discovery.ps1

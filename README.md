@@ -9,6 +9,6 @@ Whether you're troubleshooting, automating tasks, or looking for a better way to
 - **Zabbix**
   - [IIS Application Pools Monitoring using Low-Level Discovery with Dependent items](/Zabbix/IIS%20Application%20Pools%20Monitoring/IIS%20Application%20Pools%20Monitoring%20using%20Low-Level%20Discovery%20with%20Dependent%20items.md): Monitor your IIS Application Pools effectively using Zabbix's low-level discovery and dependent items feature.
 - **IIS**
-  - [Create .NET Core application to load the CPU and/or RAM](/IIS/Create%20.NET%20Core%20Load%20Test%20Application/Creating%20a%20.NET%20Core%20Application%20for%20CPU%20and%20RAM%20Load%20Testing%20on%20IIS.md): A practical guide to creating a .NET Core application designed to simulate load on CPU and RAM for testing purposes.
+  - [Creating a .NET Core Application for CPU and RAM Load Testing on IIS](/IIS/Create%20.NET%20Core%20Load%20Test%20Application/Creating%20a%20.NET%20Core%20Application%20for%20CPU%20and%20RAM%20Load%20Testing%20on%20IIS.md): A practical guide to creating a .NET Core application designed to simulate load on CPU and RAM for testing purposes.
 
 Enjoy!

@@ -105,7 +105,7 @@ namespace LoadTestApp.Controllers
     }
 }
 ```
-Code Breakdown:
+Code explanation:
 
 ```csharp
 // Here, we're importing required namespaces to enable the functionality of our code.

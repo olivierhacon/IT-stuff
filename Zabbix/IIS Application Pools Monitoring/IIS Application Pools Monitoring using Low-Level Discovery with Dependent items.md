@@ -171,7 +171,7 @@ Restart the Zabbix agent after adding these lines and check the zabbix_agentd.lo
 - Go to Configuration > Templates  
 - Click on "Create template":  
 ```plaintext
-Template name: Forem_Template_IIS
+Template name: My_Template_IIS
 Groups: Assign the template to one or more groups
 ```
 ### B. Master Item for Collecting Raw Data:

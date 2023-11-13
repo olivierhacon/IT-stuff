@@ -14,9 +14,9 @@ dotnet --version
 ```powershell
 dotnet new webapi -n LoadTestApp
 ```
-
-> If you get this error message: C:\Users\myuser\LoadTestApp\LoadTestApp.csproj : error NU1100: Unable to resolve 'Swashbuckle.AspNetCore (>= 6.5.0)' for 'net6.0'.
-  Failed to restore C:\Users\myuser\LoadTestApp\LoadTestApp.csproj (in 147 ms) you must manually create the NuGet.config file in your project directory.
+If you get this error message, you must manually create the NuGet.config file in your project directory:
+> C:\Users\myuser\LoadTestApp\LoadTestApp.csproj : error NU1100: Unable to resolve 'Swashbuckle.AspNetCore (>= 6.5.0)' for 'net6.0'.
+Failed to restore C:\Users\myuser\LoadTestApp\LoadTestApp.csproj (in 147 ms) you must manually create the NuGet.config file in your project directory.  
 
 - To create it in the C:\Users\myuser\LoadTestApp directory:
 ```powershell

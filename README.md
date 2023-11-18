@@ -11,6 +11,6 @@ Whether you're troubleshooting, automating tasks, or looking for a better way to
 - **IIS**
   - [Creating a .NET Core Application for CPU and RAM Load Testing on IIS](/IIS/Create%20.NET%20Core%20Load%20Test%20Application/Creating%20a%20.NET%20Core%20Application%20for%20CPU%20and%20RAM%20Load%20Testing%20on%20IIS.md)
 - **Linux**
-  - [Configure NVIDIA eGPU as primary GPU on Fedora 39 under Wayland with Secure Boot enabled](/Configure_NVIDIA_eGPU_as_primary_GPU_on_Fedora_39_under_Wayland_with_Secure_Boot_enabled/Configuring_an_NVIDIA_GeForce_RTX_20_30_40_Series_as_an_eGPU_Razer_Core_X_to_be_the_primary_GPU_on_Linux_Fedora_39_under_Wayland_desktop_with_Secure_Boot_enabled.md)
+  - [Configure NVIDIA eGPU as primary GPU on Fedora 39 under Wayland with Secure Boot enabled](/Linux/Configure_NVIDIA_eGPU_as_primary_GPU_on_Fedora_39_under_Wayland_with_Secure_Boot_enabled/Configuring_an_NVIDIA_GeForce_RTX_20_30_40_Series_as_an_eGPU_Razer_Core_X_to_be_the_primary_GPU_on_Linux_Fedora_39_under_Wayland_desktop_with_Secure_Boot_enabled.md)
 
 Enjoy!

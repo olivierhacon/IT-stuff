@@ -66,22 +66,22 @@ Continue installation to completion.
 
 ```bash
 mokutil --import /usr/share/nvidia/nvidia-modsign-crt-XXXXXX.der
-#The command will ask for a password to protect the key. Keep in mind that the QWERTY layout will be used
+#The command will ask for a password to protect the key. Keep in mind that the QWERTY layout will be used.
 ```
 
-Enable GUI and reboot:
+7. Enable GUI and reboot:
 
 ```bash
 sudo systemctl set-default graphical.target
 reboot
 ```
 
-When booting, a splash screen titled 'Perform MOK Management' appears.
+When booting, a splash screen titled 'Perform MOK Management' appears (following the import of the key as outlined in step 6.)
 
-1. Select 'Enroll MOK'.
-2. 'View key 0' to check key's information (SHA1 fingerprint, etc.), then press any key to return to the previous menu.
-3. Select 'Continue'
-4. 'Enroll the key(s)?' Yes and enter the password you chose during the import with mokutil.
+    1. Select 'Enroll MOK'.
+    2. 'View key 0' to check key's information (SHA1 fingerprint, etc.), then press any key to return to the previous menu.
+    3. Select 'Continue'
+    4. 'Enroll the key(s)?' Yes and enter the password you chose during the import with mokutil.
 
 ## Configuring your eGPU as primary with 'all-ways-egpu' script
 

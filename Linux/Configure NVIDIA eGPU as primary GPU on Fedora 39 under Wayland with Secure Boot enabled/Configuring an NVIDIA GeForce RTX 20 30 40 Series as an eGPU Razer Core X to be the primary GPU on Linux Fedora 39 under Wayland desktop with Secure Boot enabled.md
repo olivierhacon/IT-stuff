@@ -82,8 +82,6 @@ When booting, a splash screen titled 'Perform MOK Management' appears (following
     2. 'View key 0' to check key's information (SHA1 fingerprint, etc.), then press any key to return to the previous menu.
     3. Select 'Continue'
     4. 'Enroll the key(s)?' Yes and enter the password you chose during the import with mokutil.
-<<<<<<< HEAD
-=======
 
 The NVIDIA driver might be succesfully installed. Using the lspci command you would get the following output confirming that your kernel driver in use is nvidia.
 
@@ -94,7 +92,6 @@ $ lspci -k | grep -A 2 -E "(VGA|3D)"
 	Subsystem: Micro-Star International Co., Ltd. [MSI] Device 3860
 	Kernel driver in use: nvidia
 ```
->>>>>>> origin/main
 
 ## Configuring your eGPU as primary with 'all-ways-egpu' script
 

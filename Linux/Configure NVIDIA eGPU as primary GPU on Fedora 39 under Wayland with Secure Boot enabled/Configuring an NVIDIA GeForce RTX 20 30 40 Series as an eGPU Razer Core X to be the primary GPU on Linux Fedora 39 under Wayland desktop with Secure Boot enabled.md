@@ -83,6 +83,12 @@ When booting, a splash screen titled 'Perform MOK Management' appears (following
     3. Select 'Continue'
     4. 'Enroll the key(s)?' Yes and enter the password you chose during the import with mokutil.
 
+The NVIDIA driver might be succesfully installed. Using the lspci command you would get the following output confirming that your
+
+```bash
+lspci -k | grep -A 2 -E "(VGA|3D)"
+```
+
 ## Configuring your eGPU as primary with 'all-ways-egpu' script
 
 Use the script provided at https://github.com/ewagner12/all-ways-egpu. Folow the installation and usage instructions. On my system, the Method 1 was the only that worked.

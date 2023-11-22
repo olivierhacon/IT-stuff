@@ -12,5 +12,7 @@ Whether you're troubleshooting, automating tasks, or looking for a better way to
   - [Creating a .NET Core Application for CPU and RAM Load Testing on IIS](/IIS/Create%20.NET%20Core%20Load%20Test%20Application/Creating%20a%20.NET%20Core%20Application%20for%20CPU%20and%20RAM%20Load%20Testing%20on%20IIS.md)
 - **Linux**
   - [Configure NVIDIA eGPU as primary GPU on Fedora 39 under Wayland with Secure Boot enabled](/Linux/Configure%20NVIDIA%20eGPU%20as%20primary%20GPU%20on%20Fedora%2039%20under%20Wayland%20with%20Secure%20Boot%20enabled/Configuring%20an%20NVIDIA%20GeForce%20RTX%2020%2030%2040%20Series%20as%20an%20eGPU%20Razer%20Core%20X%20to%20be%20the%20primary%20GPU%20on%20Linux%20Fedora%2039%20under%20Wayland%20desktop%20with%20Secure%20Boot%20enabled.md)
+- **Jenkins**
+  - [Demo to Setup a Pipeline for a Java Maven Project in Jenkins from Scratch](/Jenkins/Demo%20to%20Setup%20a%20Pipeline%20for%20a%20Java%20Maven%20Project%20in%20Jenkins%20from%20Scratch/Demo%20to%20Setup%20a%20Pipeline%20for%20a%20Java%20Maven%20Project%20in%20Jenkins%20from%20Scratch.md)
 
 Enjoy!

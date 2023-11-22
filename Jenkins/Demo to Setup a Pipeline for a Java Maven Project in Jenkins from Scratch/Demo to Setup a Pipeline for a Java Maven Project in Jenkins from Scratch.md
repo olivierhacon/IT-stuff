@@ -37,11 +37,13 @@ java -version
     ```bash
     mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-jenkins-java-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
     ```
+
     - Navigate to the Project: Go into the newly created project directory:  
 
     ```bash
     cd my-jenkins-java-project
     ```
+
     - Write Your Application: Edit the App.java file under src/main/java/com/mycompany/app to create a simple Java application. Here's an example of a basic Java application that calculates Fibonacci numbers in an infinite loop, which should load the CPU:  
 
     ```java
@@ -62,7 +64,9 @@ java -version
         }
     }
     ```  
-    - Review pom.xml: Maven generates a pom.xml file in your project directory. This file is used to define your project's build configuration. Here's the reviewed version of pom.xml to fit the jenkins pipeline demo purpose:  
+
+    - Review pom.xml: Maven generates a pom.xml file in your project directory. This file is used to define your project's build configuration. Here's the reviewed version of pom.xml to fit the jenkins pipeline demo purpose: 
+
     ```xml
     <project xmlns="http://maven.apache.org/POM/4.0.0" 
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -103,10 +107,13 @@ java -version
     </build>
     </project>
     ```
+
     -  Build the Application Locally running this command from the root of your project directory:  
-```bash
-mvn clean install
-```
+
+    ```bash
+    mvn clean install
+    ```
+    
 Ensuring the build completes successfully without errors you can now run your java application and get your processor warmed up a bit 🔥:
 ```bash
 java -jar ~/my-jenkins-java-project/my-jenkins-java-project/target/my-jenkins-java-project-1.0-SNAPSHOT.jar

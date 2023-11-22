@@ -104,9 +104,9 @@ java -version
     </project>
     ```
     -  Build the Application Locally running this command from the root of your project directory:  
-    ```bash
-    mvn clean install
-    ```
+```bash
+mvn clean install
+```
 Ensuring the build completes successfully without errors you can now run your java application and get your processor warmed up a bit 🔥:
 ```bash
 java -jar ~/my-jenkins-java-project/my-jenkins-java-project/target/my-jenkins-java-project-1.0-SNAPSHOT.jar
